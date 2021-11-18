@@ -21,24 +21,27 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         int dataset = input.nextInt();
-        //jika input tidak sama dengan 14 maka akan menampilkan dataset yang dipilih dengan menampilkan semua timeslot
+        // jika input tidak sama dengan 14 maka akan menampilkan dataset yang dipilih
+        // dengan menampilkan semua timeslot
         if (dataset != 14) {
-            jalankan(dataset, fileName[dataset - 1][0],fileName[dataset - 1][1],true);
+            jalankan(dataset, fileName[dataset - 1][0], fileName[dataset - 1][1], true);
         } else {
-            //jika input sama dengan 14 maka akan menampilkan semua dataset tanpa menampilkan timeslot
+            // jika input sama dengan 14 maka akan menampilkan semua dataset tanpa
+            // menampilkan timeslot
             for (int i = 0; i < fileName.length; i++) {
-                jalankan(dataset,fileName[i][0],fileName[i][1],false);
+                jalankan(dataset, fileName[i][0], fileName[i][1], false);
             }
         }
     }
 
-    public static void jalankan(int dataset, String filePilihanInput,String namadataset,boolean tampil) throws IOException {
+    public static void jalankan(int dataset, String filePilihanInput, String namadataset, boolean tampil)
+            throws IOException {
         long startTime = System.nanoTime();
-        //jika tampil = true maka tampilkan nama dataset
-        if (tampil){
-        System.out.println("\n================================================\n");
+        // jika tampil = true maka tampilkan nama dataset
+        if (tampil) {
+            System.out.println("\n================================================\n");
         }
-     
+
         CourseData course = new CourseData(filePilihanInput);
         course.tampil = tampil;
 
@@ -64,8 +67,8 @@ public class Main {
 
         // menampilkan semua informasi
         System.out.println("Dataset yang dipilih : " + namadataset);
-        System.out.println("Ada konflik? : " + sch.isConflicted());
-        System.out.println("Penalty : "+Penalty.countPenalty(course.getStudentData(), timeslot));
+        System.out.println("Ada konflik? : " + (sch.isConflicted()? "Ya" : "Tidak"));
+        System.out.println("Penalty : " + Penalty.countPenalty(course.getStudentData(), timeslot));
         sch.getTimeslot();
         long endTime = System.nanoTime();
         long timeElapsed = endTime - startTime;
