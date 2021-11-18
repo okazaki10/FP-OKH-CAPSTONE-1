@@ -22,9 +22,9 @@ Pilih dataset  :
 
 Dataset yang dipilih : CAR91
 Ada konflik? : Tidak
-Penalty : 15.160345031312774
+Penalty : 7.580172515656387
 Minimal Timeslots: 35
-Waktu eksekusi dalam milliseconds : 139
+Waktu eksekusi dalam milliseconds : 140
  
  
 
@@ -32,9 +32,9 @@ Waktu eksekusi dalam milliseconds : 139
 
 Dataset yang dipilih : CAR92
 Ada konflik? : Tidak
-Penalty : 14.245724523589772
+Penalty : 7.122862261794886
 Minimal Timeslots: 32
-Waktu eksekusi dalam milliseconds : 47
+Waktu eksekusi dalam milliseconds : 44
  
  
 
@@ -42,9 +42,9 @@ Waktu eksekusi dalam milliseconds : 47
 
 Dataset yang dipilih : EAR83
 Ada konflik? : Tidak
-Penalty : 94.80177777777777
+Penalty : 47.400888888888886
 Minimal Timeslots: 26
-Waktu eksekusi dalam milliseconds : 9
+Waktu eksekusi dalam milliseconds : 7
  
  
 
@@ -52,9 +52,9 @@ Waktu eksekusi dalam milliseconds : 9
 
 Dataset yang dipilih : HEC92
 Ada konflik? : Tidak
-Penalty : 25.98370527807297
+Penalty : 12.991852639036486
 Minimal Timeslots: 20
-Waktu eksekusi dalam milliseconds : 8
+Waktu eksekusi dalam milliseconds : 6
  
  
 
@@ -62,9 +62,9 @@ Waktu eksekusi dalam milliseconds : 8
 
 Dataset yang dipilih : KFU93
 Ada konflik? : Tidak
-Penalty : 68.98934380257992
+Penalty : 34.49467190128996
 Minimal Timeslots: 20
-Waktu eksekusi dalam milliseconds : 17
+Waktu eksekusi dalam milliseconds : 15
  
  
 
@@ -72,7 +72,7 @@ Waktu eksekusi dalam milliseconds : 17
 
 Dataset yang dipilih : LSE91
 Ada konflik? : Tidak
-Penalty : 37.58033749082905
+Penalty : 18.790168745414526
 Minimal Timeslots: 19
 Waktu eksekusi dalam milliseconds : 6
  
@@ -82,9 +82,9 @@ Waktu eksekusi dalam milliseconds : 6
 
 Dataset yang dipilih : PUR93
 Ada konflik? : Tidak
-Penalty : 24.96064198188599
+Penalty : 12.480320990942994
 Minimal Timeslots: 38
-Waktu eksekusi dalam milliseconds : 124
+Waktu eksekusi dalam milliseconds : 108
  
  
 
@@ -92,9 +92,9 @@ Waktu eksekusi dalam milliseconds : 124
 
 Dataset yang dipilih : RYE92
 Ada konflik? : Tidak
-Penalty : 41.2726639379953
+Penalty : 20.63633196899765
 Minimal Timeslots: 25
-Waktu eksekusi dalam milliseconds : 26
+Waktu eksekusi dalam milliseconds : 23
  
  
 
@@ -102,9 +102,9 @@ Waktu eksekusi dalam milliseconds : 26
 
 Dataset yang dipilih : STA83
 Ada konflik? : Tidak
-Penalty : 238.65466448445173
+Penalty : 119.32733224222586
 Minimal Timeslots: 12
-Waktu eksekusi dalam milliseconds : 5
+Waktu eksekusi dalam milliseconds : 4
  
  
 
@@ -112,7 +112,7 @@ Waktu eksekusi dalam milliseconds : 5
 
 Dataset yang dipilih : TRE92
 Ada konflik? : Tidak
-Penalty : 20.423658872077027
+Penalty : 10.211829436038514
 Minimal Timeslots: 24
 Waktu eksekusi dalam milliseconds : 7
  
@@ -122,9 +122,9 @@ Waktu eksekusi dalam milliseconds : 7
 
 Dataset yang dipilih : UTA92
 Ada konflik? : Tidak
-Penalty : 9.708266716824978
+Penalty : 4.854133358412489
 Minimal Timeslots: 36
-Waktu eksekusi dalam milliseconds : 31
+Waktu eksekusi dalam milliseconds : 28
  
  
 
@@ -132,7 +132,7 @@ Waktu eksekusi dalam milliseconds : 31
 
 Dataset yang dipilih : UTE92
 Ada konflik? : Tidak
-Penalty : 65.39418181818182
+Penalty : 32.69709090909091
 Minimal Timeslots: 11
 Waktu eksekusi dalam milliseconds : 7
  
@@ -142,6 +142,6 @@ Waktu eksekusi dalam milliseconds : 7
 
 Dataset yang dipilih : YOR83
 Ada konflik? : Tidak
-Penalty : 83.60042507970245
+Penalty : 41.80021253985122
 Minimal Timeslots: 23
 Waktu eksekusi dalam milliseconds : 4

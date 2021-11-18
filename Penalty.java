@@ -14,7 +14,7 @@ public class Penalty
            
             if (courseTaken.length > 1) {
                 for (int i = 0; i < courseTaken.length; i++) {
-                    for (int j = 0; j < courseTaken.length; j++) {
+                    for (int j = i+1; j < courseTaken.length; j++) {
                         if (i != j) {
                             int timeslotCourse1 = timeslot[Integer.parseInt(courseTaken[i])-1];
                             int timeslotCourse2 = timeslot[Integer.parseInt(courseTaken[j])-1];
